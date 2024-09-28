@@ -1,10 +1,3 @@
-$ pip install streamlit
-$ streamlit hello
-import streamlit as st
-x = st.slider("Select a value")
-st.write(x, "squared is", x * x)
-$ streamlit run streamlit_app.py
-
 import bokeh.io
 import bokeh.plotting
 bokeh.io.output_notebook()
